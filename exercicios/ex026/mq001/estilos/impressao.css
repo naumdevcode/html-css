@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Estilo para impressão*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+header{
+    text-align: center;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: "Esse artigo foi impresso através do site naumdev.com";
+}
